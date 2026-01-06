@@ -26,6 +26,11 @@
 
 .footer-contato img{
     max-width: 50px;
+    transition: 0.2s;
+}
+
+.footer-contato img:hover{
+    max-width: 52px
 }
 
 @media (max-width:800px) {

@@ -110,6 +110,12 @@
     background: black;
     padding: 20px;
     border-radius: 10px;
+    border:2px solid transparent;
+    transition: 0.2s;
+}
+
+.cursos:hover{
+    border: 2px solid #B5E61D;
 }
 
 .cursos li{
@@ -122,7 +128,12 @@
     background: black;
     padding: 20px;
     border-radius: 10px;
+    border:2px solid transparent;
+    transition: 0.2s;
+}
 
+.idiomas:hover{
+    border: 2px solid #B5E61D;
 }
 
 @media (max-width:800px) {

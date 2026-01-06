@@ -1,0 +1,136 @@
+.formacao{
+    background: #f5f5f5;
+    color: #222222;
+}
+
+.formacao-container{
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.formacao .subtitulo{
+    color: #181818;
+}
+
+.formacao-texto{
+    font-size: 24px;
+    text-align: left;
+    justify-self: left;
+    max-width: 40ch;
+    margin-bottom: 20px;
+}
+
+.formacao-texto strong{
+    color: black;
+}
+
+.faculdade-lista{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    list-style: none;
+    justify-content: start;
+    text-align: left;
+}
+
+.faculdade{
+    background: #181818;
+    color: white;
+    padding: 20px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    margin-bottom: 30px;
+}
+
+.faculdade:hover{
+    border: 2px solid #B5E61D;
+    border-radius: 4px;
+}
+
+.faculdade-tipo{
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #b8b8b8;
+    border-bottom: 1px solid #B5E61D;
+}
+
+.faculdade-instituicao{
+    color: #b8b8b8
+}
+
+.faculdade-curso{
+    font-size: 20px;
+    margin-bottom: 40px;
+
+}
+
+.cursos-lista{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    list-style: none;
+    color: rgb(243, 243, 243);
+    font-size: 16;
+    line-height: 2;
+}
+
+.cursos{
+    margin-bottom: 60px;
+}
+
+.idiomas-lista{
+    margin: 0;
+    padding: 0;
+    color: rgb(243, 243, 243);
+    text-align: left;
+    list-style: none;
+    line-height: 1.4;
+}
+
+.formacao-extra h3{
+    font-size: 16px;
+    color: #bdbdbd;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #B5E61D;
+}
+
+.formacao-extra span{
+    color: #8f8f8f;
+}
+
+.cursos{
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cursos li{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.idiomas{
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+@media (max-width:800px) {
+    .formacao-container{
+        grid-template-columns: 1fr;
+    }
+    .subtitulo{
+        justify-self: center;
+        font-size: 80px;
+    }
+}
